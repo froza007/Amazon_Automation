@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="195.246" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="220.707" tests="52" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/froza/.sdkman/candidates/java/17.0.16-tem/lib"/>
-    <property name="sun.java.command" value="/Users/froza/Documents/eclipse_workspace/Amazon/target/surefire/surefirebooter-20260210125448130_3.jar /Users/froza/Documents/eclipse_workspace/Amazon/target/surefire 2026-02-10T12-54-48_095-jvmRun1 surefire-20260210125448130_1tmp surefire_0-20260210125448130_2tmp"/>
+    <property name="sun.java.command" value="/Users/froza/Documents/eclipse_workspace/Amazon/target/surefire/surefirebooter-20260210145706100_3.jar /Users/froza/Documents/eclipse_workspace/Amazon/target/surefire 2026-02-10T14-57-06_069-jvmRun1 surefire-20260210145706100_1tmp surefire_0-20260210145706100_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/froza/Documents/eclipse_workspace/Amazon/target/test-classes:/Users/froza/Documents/eclipse_workspace/Amazon/target/classes:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/froza/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/froza/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/froza/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/froza/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/froza/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/froza/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/froza/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/froza/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/froza/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/froza/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/froza/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/froza/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/froza/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/froza/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/froza/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/froza/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/froza/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/froza/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/froza/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/froza/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/froza/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/froza/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/froza/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/froza/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/froza/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/froza/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/froza/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/froza/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/froza/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/froza/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/froza/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/froza/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/froza/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/froza/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/froza/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/froza/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/froza/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/froza/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/froza/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/froza/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/froza/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/froza/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/froza/.m2/repository/tech/grasshopper/extentreports-cucumber7-adapter/1.10.0/extentreports-cucumber7-adapter-1.10.0.jar:/Users/froza/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/froza/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/froza/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/froza/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/froza/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/froza/.m2/repository/tech/grasshopper/extent-pdf-report/2.9.1/extent-pdf-report-2.9.1.jar:/Users/froza/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.11.1/cucumber-pdf-report-2.11.1.jar:/Users/froza/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/froza/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/froza/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/froza/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/froza/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/froza/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/froza/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/Users/froza/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/Users/froza/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.4.1/rest-assured-cucumber-pdf-report-1.4.1.jar:/Users/froza/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/Users/froza/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/Users/froza/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar:/Users/froza/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar:/Users/froza/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/froza/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/froza/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/froza/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar:/Users/froza/.m2/repository/tech/grasshopper/extent-excel-report/1.2.0/extent-excel-report-1.2.0.jar:/Users/froza/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/froza/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/froza/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/froza/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/froza/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/froza/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/froza/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/froza/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/froza/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/froza/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/froza/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/froza/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/Users/froza/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/froza/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/froza/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/froza/Documents/eclipse_workspace/Amazon/target/surefire/surefirebooter-20260210125448130_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/froza/Documents/eclipse_workspace/Amazon/target/surefire/surefirebooter-20260210145706100_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.16+8"/>
@@ -57,384 +57,750 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify Amazon home page loads successfully&quot;, &quot;Home Page Module&quot;](1)" classname="runners.TestRunner" time="5.564">
+  <testcase name="runScenario[&quot;Verify Amazon home page loads successfully&quot;, &quot;Home Page Module&quot;](1)" classname="runners.TestRunner" time="6.44">
     <system-out><![CDATA[
 @Home
 Scenario: Verify Amazon home page loads successfully # src/test/resources/features/01_home.feature:4
+
+@Home
+Scenario: Verify Amazon home page loads successfully # src/test/resources/features/01_home.feature:4
+  Given User is on Amazon home page                  # stepDefinitions.HomePageSteps.verifyHomePage()
   Given User is on Amazon home page                  # stepDefinitions.HomePageSteps.verifyHomePage()
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Feb 10, 2026 12:54:49 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+Feb 10, 2026 2:57:07 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:07 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:54:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:54:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify search box present&quot;, &quot;Home Page Module&quot;](2)" classname="runners.TestRunner" time="4.37">
+  <testcase name="runScenario[&quot;Verify Amazon home page loads successfully&quot;, &quot;Home Page Module&quot;](1)" classname="runners.TestRunner" time="0.069">
+    <system-out><![CDATA[
+@Home
+Scenario: Verify search box present # src/test/resources/features/01_home.feature:7
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify search box present&quot;, &quot;Home Page Module&quot;](2)" classname="runners.TestRunner" time="5.103">
     <system-out><![CDATA[
 @Home
 Scenario: Verify search box present # src/test/resources/features/01_home.feature:7
   Given User is on Amazon home page # stepDefinitions.HomePageSteps.verifyHomePage()
   Then Verify search box present    # stepDefinitions.HomePageSteps.verifySearch()
+  Given User is on Amazon home page # stepDefinitions.HomePageSteps.verifyHomePage()
+  Then Verify search box present    # stepDefinitions.HomePageSteps.verifySearch()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:54:54 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:13 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:13 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:54:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:54:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify category navigation menu present&quot;, &quot;Home Page Module&quot;](3)" classname="runners.TestRunner" time="4.452">
+  <testcase name="runScenario[&quot;Verify search box present&quot;, &quot;Home Page Module&quot;](2)" classname="runners.TestRunner" time="0.058">
+    <system-out><![CDATA[
+@Home
+Scenario: Verify category navigation menu present # src/test/resources/features/01_home.feature:11
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify category navigation menu present&quot;, &quot;Home Page Module&quot;](3)" classname="runners.TestRunner" time="4.702">
     <system-out><![CDATA[
 @Home
 Scenario: Verify category navigation menu present # src/test/resources/features/01_home.feature:11
   Given User is on Amazon home page               # stepDefinitions.HomePageSteps.verifyHomePage()
   Then Verify category navigation menu present    # stepDefinitions.HomePageSteps.verifyCategory()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:54:58 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:54:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:54:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify banner section visible&quot;, &quot;Home Page Module&quot;](4)" classname="runners.TestRunner" time="4.558">
+  <testcase name="runScenario[&quot;Verify category navigation menu present&quot;, &quot;Home Page Module&quot;](3)" classname="runners.TestRunner" time="0.29">
+    <system-out><![CDATA[
+@Home
+Scenario: Verify banner section visible # src/test/resources/features/01_home.feature:15
+  Given User is on Amazon home page               # stepDefinitions.HomePageSteps.verifyHomePage()
+  Then Verify category navigation menu present    # stepDefinitions.HomePageSteps.verifyCategory()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify banner section visible&quot;, &quot;Home Page Module&quot;](4)" classname="runners.TestRunner" time="4.812">
     <system-out><![CDATA[
 @Home
 Scenario: Verify banner section visible # src/test/resources/features/01_home.feature:15
   Given User is on Amazon home page     # stepDefinitions.HomePageSteps.verifyHomePage()
   Then Verify banner section visible    # stepDefinitions.HomePageSteps.verifyBanner()
+  Given User is on Amazon home page     # stepDefinitions.HomePageSteps.verifyHomePage()
+  Then Verify banner section visible    # stepDefinitions.HomePageSteps.verifyBanner()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:03 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:23 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:23 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Handle location popup&quot;, &quot;Home Page Module&quot;](5)" classname="runners.TestRunner" time="4.548">
+  <testcase name="runScenario[&quot;Verify banner section visible&quot;, &quot;Home Page Module&quot;](4)" classname="runners.TestRunner" time="0.041">
+    <system-out><![CDATA[
+@Home
+Scenario: Handle location popup     # src/test/resources/features/01_home.feature:19
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Handle location popup&quot;, &quot;Home Page Module&quot;](5)" classname="runners.TestRunner" time="4.874">
     <system-out><![CDATA[
 @Home
 Scenario: Handle location popup     # src/test/resources/features/01_home.feature:19
   Given User is on Amazon home page # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page # stepDefinitions.HomePageSteps.verifyHomePage()
   When User handles location popup  # stepDefinitions.HomePageSteps.locationPopup()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:07 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search using valid keyword&quot;, &quot;Search Module&quot;](6)" classname="runners.TestRunner" time="6.36">
+  <testcase name="runScenario[&quot;Handle location popup&quot;, &quot;Home Page Module&quot;](5)" classname="runners.TestRunner" time="0.672">
+    <system-out><![CDATA[
+@Search
+Scenario: Search using valid keyword        # src/test/resources/features/02_search.feature:4
+  When User handles location popup  # stepDefinitions.HomePageSteps.locationPopup()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:57:33 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search using valid keyword&quot;, &quot;Search Module&quot;](6)" classname="runners.TestRunner" time="6.318">
     <system-out><![CDATA[
 @Search
 Scenario: Search using valid keyword        # src/test/resources/features/02_search.feature:4
   Given User is on Amazon home page         # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page         # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "iphone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   When User searches valid product "iphone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:12 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:57:33 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search using invalid keyword&quot;, &quot;Search Module&quot;](7)" classname="runners.TestRunner" time="6.047">
+  <testcase name="runScenario[&quot;Search using valid keyword&quot;, &quot;Search Module&quot;](6)" classname="runners.TestRunner" time="6.318"/>
+  <testcase name="runScenario[&quot;Search using invalid keyword&quot;, &quot;Search Module&quot;](7)" classname="runners.TestRunner" time="6.283">
     <system-out><![CDATA[
 @Search
 Scenario: Search using invalid keyword          # src/test/resources/features/02_search.feature:8
+
+@Search
+Scenario: Search using invalid keyword          # src/test/resources/features/02_search.feature:8
+  Given User is on Amazon home page             # stepDefinitions.HomePageSteps.verifyHomePage()
   Given User is on Amazon home page             # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches invalid product "zzzzzzzz" # stepDefinitions.SearchSteps.invalidSearch(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:40 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:40 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search using special characters&quot;, &quot;Search Module&quot;](8)" classname="runners.TestRunner" time="6.151">
+  <testcase name="runScenario[&quot;Search using invalid keyword&quot;, &quot;Search Module&quot;](7)" classname="runners.TestRunner" time="0.331">
+    <system-out><![CDATA[
+@Search
+Scenario: Search using special characters      # src/test/resources/features/02_search.feature:12
+  When User searches invalid product "zzzzzzzz" # stepDefinitions.SearchSteps.invalidSearch(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search using special characters&quot;, &quot;Search Module&quot;](8)" classname="runners.TestRunner" time="6.445">
     <system-out><![CDATA[
 @Search
 Scenario: Search using special characters      # src/test/resources/features/02_search.feature:12
   Given User is on Amazon home page            # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page            # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches special characters "@@@@" # stepDefinitions.SearchSteps.specialSearch(java.lang.String)
   When User searches special characters "@@@@" # stepDefinitions.SearchSteps.specialSearch(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:24 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:46 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:46 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify search results page displayed&quot;, &quot;Search Module&quot;](9)" classname="runners.TestRunner" time="6.494">
+  <testcase name="runScenario[&quot;Search using special characters&quot;, &quot;Search Module&quot;](8)" classname="runners.TestRunner" time="0.092">
+    <system-out><![CDATA[
+@Search
+Scenario: Verify search results page displayed # src/test/resources/features/02_search.feature:16
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify search results page displayed&quot;, &quot;Search Module&quot;](9)" classname="runners.TestRunner" time="6.093">
     <system-out><![CDATA[
 @Search
 Scenario: Verify search results page displayed # src/test/resources/features/02_search.feature:16
   Given User is on Amazon home page            # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page            # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches valid product "iphone"    # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   Then Verify results page displayed           # stepDefinitions.SearchSteps.verifyResults()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:31 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:53 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:53 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:57:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:57:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:57:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:57:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify products are listed after search&quot;, &quot;Search Module&quot;](10)" classname="runners.TestRunner" time="6.425">
+  <testcase name="runScenario[&quot;Verify search results page displayed&quot;, &quot;Search Module&quot;](9)" classname="runners.TestRunner" time="0.303">
+    <system-out><![CDATA[
+@Search
+Scenario: Verify products are listed after search # src/test/resources/features/02_search.feature:21
+  When User searches valid product "iphone"    # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  Then Verify results page displayed           # stepDefinitions.SearchSteps.verifyResults()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify products are listed after search&quot;, &quot;Search Module&quot;](10)" classname="runners.TestRunner" time="6.728">
     <system-out><![CDATA[
 @Search
 Scenario: Verify products are listed after search # src/test/resources/features/02_search.feature:21
   Given User is on Amazon home page               # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page               # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "iphone"       # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   When User searches valid product "iphone"       # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   Then Verify products are listed                 # stepDefinitions.SearchSteps.verifyProducts()
+  Then Verify products are listed                 # stepDefinitions.SearchSteps.verifyProducts()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:37 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:57:59 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:57:59 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product listing page displays multiple products&quot;, &quot;Product Listing Module&quot;](11)" classname="runners.TestRunner" time="6.116">
+  <testcase name="runScenario[&quot;Verify products are listed after search&quot;, &quot;Search Module&quot;](10)" classname="runners.TestRunner" time="0.011">
+    <system-out><![CDATA[
+@Listing
+Scenario: Verify product listing page displays multiple products # src/test/resources/features/03_listing.feature:4
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product listing page displays multiple products&quot;, &quot;Product Listing Module&quot;](11)" classname="runners.TestRunner" time="7.026">
     <system-out><![CDATA[
 @Listing
 Scenario: Verify product listing page displays multiple products # src/test/resources/features/03_listing.feature:4
   Given User is on Amazon home page                              # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                              # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone"               # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  Then Verify multiple products displayed                        # stepDefinitions.ProductListingSteps.verifyProducts()
   When User searches valid product "samsung phone"               # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   Then Verify multiple products displayed                        # stepDefinitions.ProductListingSteps.verifyProducts()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:43 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:06 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:06 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Apply price filter&quot;, &quot;Product Listing Module&quot;](12)" classname="runners.TestRunner" time="6.457">
+  <testcase name="runScenario[&quot;Verify product listing page displays multiple products&quot;, &quot;Product Listing Module&quot;](11)" classname="runners.TestRunner" time="0.036">
+    <system-out><![CDATA[
+@Listing
+Scenario: Apply price filter                       # src/test/resources/features/03_listing.feature:9
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Apply price filter&quot;, &quot;Product Listing Module&quot;](12)" classname="runners.TestRunner" time="6.943">
     <system-out><![CDATA[
 @Listing
 Scenario: Apply price filter                       # src/test/resources/features/03_listing.feature:9
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User applies price filter                    # stepDefinitions.ProductListingSteps.priceFilter()
   Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
+  And User applies price filter                    # stepDefinitions.ProductListingSteps.priceFilter()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:50 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:13 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:13 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Apply brand filter&quot;, &quot;Product Listing Module&quot;](13)" classname="runners.TestRunner" time="6.68">
+  <testcase name="runScenario[&quot;Apply price filter&quot;, &quot;Product Listing Module&quot;](12)" classname="runners.TestRunner" time="0.112">
+    <system-out><![CDATA[
+@Listing
+Scenario: Apply brand filter                       # src/test/resources/features/03_listing.feature:15
+  Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Apply brand filter&quot;, &quot;Product Listing Module&quot;](13)" classname="runners.TestRunner" time="7.534">
     <system-out><![CDATA[
 @Listing
 Scenario: Apply brand filter                       # src/test/resources/features/03_listing.feature:15
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User applies brand filter                    # stepDefinitions.ProductListingSteps.brandFilter()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:55:56 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:20 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:55:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:20 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:55:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Clear filters and verify results reset&quot;, &quot;Product Listing Module&quot;](14)" classname="runners.TestRunner" time="8.135">
+  <testcase name="runScenario[&quot;Apply brand filter&quot;, &quot;Product Listing Module&quot;](13)" classname="runners.TestRunner" time="1.026">
+    <system-out><![CDATA[
+@Listing
+Scenario: Clear filters and verify results reset   # src/test/resources/features/03_listing.feature:21
+  And User applies brand filter                    # stepDefinitions.ProductListingSteps.brandFilter()
+  Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:58:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Clear filters and verify results reset&quot;, &quot;Product Listing Module&quot;](14)" classname="runners.TestRunner" time="7.776">
     <system-out><![CDATA[
 @Listing
 Scenario: Clear filters and verify results reset   # src/test/resources/features/03_listing.feature:21
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User applies price filter                    # stepDefinitions.ProductListingSteps.priceFilter()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User applies price filter                    # stepDefinitions.ProductListingSteps.priceFilter()
   When User clears filters                         # stepDefinitions.ProductListingSteps.clearFilters()
   Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:03 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:58:29 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Sorting Module&quot;](15)" classname="runners.TestRunner" time="6.801">
+  <testcase name="runScenario[&quot;Clear filters and verify results reset&quot;, &quot;Product Listing Module&quot;](14)" classname="runners.TestRunner" time="0.164">
+    <system-out><![CDATA[
+@Sorting
+Scenario: Sort products by price low to high       # src/test/resources/features/04_sorting.feature:4
+  When User clears filters                         # stepDefinitions.ProductListingSteps.clearFilters()
+  Then Verify multiple products displayed          # stepDefinitions.ProductListingSteps.verifyProducts()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Sorting Module&quot;](15)" classname="runners.TestRunner" time="7.859">
     <system-out><![CDATA[
 @Sorting
 Scenario: Sort products by price low to high       # src/test/resources/features/04_sorting.feature:4
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User sorts by price low to high              # stepDefinitions.SortingSteps.sortLow()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User sorts by price low to high              # stepDefinitions.SortingSteps.sortLow()
   Then Verify sorting applied                      # stepDefinitions.SortingSteps.verifySorting()
+  Then Verify sorting applied                      # stepDefinitions.SortingSteps.verifySorting()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:11 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:36 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:37 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Sort products by customer review&quot;, &quot;Sorting Module&quot;](16)" classname="runners.TestRunner" time="7.04">
+  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Sorting Module&quot;](15)" classname="runners.TestRunner" time="0.049">
+    <system-out><![CDATA[
+@Sorting
+Scenario: Sort products by customer review         # src/test/resources/features/04_sorting.feature:10
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by customer review&quot;, &quot;Sorting Module&quot;](16)" classname="runners.TestRunner" time="7.65">
     <system-out><![CDATA[
 @Sorting
 Scenario: Sort products by customer review         # src/test/resources/features/04_sorting.feature:10
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User sorts by customer review                # stepDefinitions.SortingSteps.sortReview()
+  And User sorts by customer review                # stepDefinitions.SortingSteps.sortReview()
+  Then Verify sorting applied                      # stepDefinitions.SortingSteps.verifySorting()
   Then Verify sorting applied                      # stepDefinitions.SortingSteps.verifySorting()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:45 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:45 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify sorting reflects correctly in product list&quot;, &quot;Sorting Module&quot;](17)" classname="runners.TestRunner" time="6.857">
+  <testcase name="runScenario[&quot;Sort products by customer review&quot;, &quot;Sorting Module&quot;](16)" classname="runners.TestRunner" time="0.063">
+    <system-out><![CDATA[
+@Sorting
+Scenario: Verify sorting reflects correctly in product list # src/test/resources/features/04_sorting.feature:16
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify sorting reflects correctly in product list&quot;, &quot;Sorting Module&quot;](17)" classname="runners.TestRunner" time="7.481">
     <system-out><![CDATA[
 @Sorting
 Scenario: Verify sorting reflects correctly in product list # src/test/resources/features/04_sorting.feature:16
   Given User is on Amazon home page                         # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                         # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone"          # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User sorts by price low to high                       # stepDefinitions.SortingSteps.sortLow()
   When User searches valid product "samsung phone"          # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User sorts by price low to high                       # stepDefinitions.SortingSteps.sortLow()
   Then Verify sorting applied                               # stepDefinitions.SortingSteps.verifySorting()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:25 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:58:52 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:58:52 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:58:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:58:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:58:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:58:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Navigate to product details page&quot;, &quot;Product Details Module&quot;](18)" classname="runners.TestRunner" time="6.314">
+  <testcase name="runScenario[&quot;Verify sorting reflects correctly in product list&quot;, &quot;Sorting Module&quot;](17)" classname="runners.TestRunner" time="0.509">
+    <system-out><![CDATA[
+@Details
+Scenario: Navigate to product details page         # src/test/resources/features/05_details.feature:4
+  Then Verify sorting applied                               # stepDefinitions.SortingSteps.verifySorting()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:00 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to product details page&quot;, &quot;Product Details Module&quot;](18)" classname="runners.TestRunner" time="7.21">
     <system-out><![CDATA[
 @Details
 Scenario: Navigate to product details page         # src/test/resources/features/05_details.feature:4
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:32 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:59:00 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:59:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:59:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product title displayed&quot;, &quot;Product Details Module&quot;](19)" classname="runners.TestRunner" time="8.381">
+  <testcase name="runScenario[&quot;Navigate to product details page&quot;, &quot;Product Details Module&quot;](18)" classname="runners.TestRunner" time="0.147">
+    <system-out><![CDATA[
+@Details
+Scenario: Verify product title displayed           # src/test/resources/features/05_details.feature:9
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product title displayed&quot;, &quot;Product Details Module&quot;](19)" classname="runners.TestRunner" time="9.25">
     <system-out><![CDATA[
 @Details
 Scenario: Verify product title displayed           # src/test/resources/features/05_details.feature:9
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   Then Verify product title visible                # stepDefinitions.ProductDetailsSteps.verifyTitle()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:38 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+    <system-err><![CDATA[Feb 10, 2026 2:59:07 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 10, 2026 2:59:08 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:59:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product price displayed&quot;, &quot;Product Details Module&quot;](20)" classname="runners.TestRunner" time="9.141">
+  <testcase name="runScenario[&quot;Verify product title displayed&quot;, &quot;Product Details Module&quot;](19)" classname="runners.TestRunner" time="0.673">
+    <system-out><![CDATA[
+@Details
+Scenario: Verify product price displayed           # src/test/resources/features/05_details.feature:15
+  Then Verify product title visible                # stepDefinitions.ProductDetailsSteps.verifyTitle()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:17 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product price displayed&quot;, &quot;Product Details Module&quot;](20)" classname="runners.TestRunner" time="8.987">
     <system-out><![CDATA[
 @Details
 Scenario: Verify product price displayed           # src/test/resources/features/05_details.feature:15
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   Then Verify product price visible                # stepDefinitions.ProductDetailsSteps.verifyPrice()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:46 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:59:17 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:59:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product image displayed&quot;, &quot;Product Details Module&quot;](21)" classname="runners.TestRunner" time="9.536">
+  <testcase name="runScenario[&quot;Verify product price displayed&quot;, &quot;Product Details Module&quot;](20)" classname="runners.TestRunner" time="0.994">
+    <system-out><![CDATA[
+@Details
+Scenario: Verify product image displayed           # src/test/resources/features/05_details.feature:21
+  Then Verify product price visible                # stepDefinitions.ProductDetailsSteps.verifyPrice()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:27 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product image displayed&quot;, &quot;Product Details Module&quot;](21)" classname="runners.TestRunner" time="9.34">
     <system-out><![CDATA[
 @Details
 Scenario: Verify product image displayed           # src/test/resources/features/05_details.feature:21
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   Then Verify product image visible                # stepDefinitions.ProductDetailsSteps.verifyImage()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:56:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:56:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:59:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:56:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product description visible&quot;, &quot;Product Details Module&quot;](22)" classname="runners.TestRunner" time="9.007">
+  <testcase name="runScenario[&quot;Verify product image displayed&quot;, &quot;Product Details Module&quot;](21)" classname="runners.TestRunner" time="0.82">
+    <system-out><![CDATA[
+@Details
+Scenario: Verify product description visible       # src/test/resources/features/05_details.feature:27
+  Then Verify product image visible                # stepDefinitions.ProductDetailsSteps.verifyImage()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:37 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product description visible&quot;, &quot;Product Details Module&quot;](22)" classname="runners.TestRunner" time="8.447">
     <system-out><![CDATA[
 @Details
 Scenario: Verify product description visible       # src/test/resources/features/05_details.feature:27
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   Then Verify product description visible          # stepDefinitions.ProductDetailsSteps.verifyDescription()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:57:05 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:57:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:59:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:57:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 10, 2026 2:59:38 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart Module&quot;](23)" classname="runners.TestRunner" time="12.498">
+  <testcase name="runScenario[&quot;Verify product description visible&quot;, &quot;Product Details Module&quot;](22)" classname="runners.TestRunner" time="2.184">
+    <system-out><![CDATA[
+@Cart
+Scenario: Add product to cart                      # src/test/resources/features/06_cart.feature:4
+  Then Verify product description visible          # stepDefinitions.ProductDetailsSteps.verifyDescription()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:46 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart Module&quot;](23)" classname="runners.TestRunner" time="9.715">
     <system-out><![CDATA[
 @Cart
 Scenario: Add product to cart                      # src/test/resources/features/06_cart.feature:4
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:57:14 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 2:59:48 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:57:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 2:59:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product added to cart successfully&quot;, &quot;Cart Module&quot;](24)" classname="runners.TestRunner" time="12.95">
+  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart Module&quot;](23)" classname="runners.TestRunner" time="4.156">
     <system-out><![CDATA[
 @Cart
 Scenario: Verify product added to cart successfully # src/test/resources/features/06_cart.feature:10
+  And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 2:59:58 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 2:59:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 2:59:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product added to cart successfully&quot;, &quot;Cart Module&quot;](24)" classname="runners.TestRunner" time="11.814">
+    <system-out><![CDATA[
+@Cart
+Scenario: Verify product added to cart successfully # src/test/resources/features/06_cart.feature:10
+  Given User is on Amazon home page                 # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone"  # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details              # stepDefinitions.ProductDetailsSteps.openProduct()
   Given User is on Amazon home page                 # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches valid product "samsung phone"  # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details              # stepDefinitions.ProductDetailsSteps.openProduct()
@@ -442,51 +808,102 @@ Scenario: Verify product added to cart successfully # src/test/resources/feature
   And User opens cart                               # stepDefinitions.CartSteps.openCart()
   Then Verify product added to cart                 # stepDefinitions.CartSteps.verifyCart()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:57:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:57:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 3:00:02 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 3:00:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:57:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 3:00:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Remove product from cart&quot;, &quot;Cart Module&quot;](25)" classname="runners.TestRunner" time="12.469">
+  <testcase name="runScenario[&quot;Verify product added to cart successfully&quot;, &quot;Cart Module&quot;](24)" classname="runners.TestRunner" time="3.954">
+    <system-out><![CDATA[
+@Cart
+Scenario: Remove product from cart                 # src/test/resources/features/06_cart.feature:18
+  And User adds product to cart                     # stepDefinitions.CartSteps.addProduct()
+  And User opens cart                               # stepDefinitions.CartSteps.openCart()
+  Then Verify product added to cart                 # stepDefinitions.CartSteps.verifyCart()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 3:00:14 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 3:00:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 3:00:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Remove product from cart&quot;, &quot;Cart Module&quot;](25)" classname="runners.TestRunner" time="10.788">
     <system-out><![CDATA[
 @Cart
 Scenario: Remove product from cart                 # src/test/resources/features/06_cart.feature:18
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
-  And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
-  And User opens cart                              # stepDefinitions.CartSteps.openCart()
-  When User removes product from cart              # stepDefinitions.CartSteps.removeProduct()
-]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:57:39 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:57:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:57:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify cart empty after removal&quot;, &quot;Cart Module&quot;](26)" classname="runners.TestRunner" time="11.433">
-    <system-out><![CDATA[
-@Cart
-Scenario: Verify cart empty after removal          # src/test/resources/features/06_cart.feature:26
   Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
   When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
   And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
   And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
   And User opens cart                              # stepDefinitions.CartSteps.openCart()
   When User removes product from cart              # stepDefinitions.CartSteps.removeProduct()
-  Then Verify product added to cart                # stepDefinitions.CartSteps.verifyCart()
 ]]></system-out>
-    <system-err><![CDATA[Feb 10, 2026 12:57:52 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
-Feb 10, 2026 12:57:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 10, 2026 3:00:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 3:00:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 10, 2026 12:57:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 10, 2026 3:00:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Remove product from cart&quot;, &quot;Cart Module&quot;](25)" classname="runners.TestRunner" time="4.29">
+    <system-out><![CDATA[
+@Cart
+Scenario: Verify cart empty after removal          # src/test/resources/features/06_cart.feature:26
+  And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
+  And User opens cart                              # stepDefinitions.CartSteps.openCart()
+  When User removes product from cart              # stepDefinitions.CartSteps.removeProduct()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 3:00:29 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 3:00:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 3:00:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify cart empty after removal&quot;, &quot;Cart Module&quot;](26)" classname="runners.TestRunner" time="12.94">
+    <system-out><![CDATA[
+@Cart
+Scenario: Verify cart empty after removal          # src/test/resources/features/06_cart.feature:26
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
+  Given User is on Amazon home page                # stepDefinitions.HomePageSteps.verifyHomePage()
+  When User searches valid product "samsung phone" # stepDefinitions.SearchSteps.validSearch(java.lang.String)
+  And User opens first product details             # stepDefinitions.ProductDetailsSteps.openProduct()
+  And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
+  And User adds product to cart                    # stepDefinitions.CartSteps.addProduct()
+  And User opens cart                              # stepDefinitions.CartSteps.openCart()
+  When User removes product from cart              # stepDefinitions.CartSteps.removeProduct()
+  Then Verify product added to cart                # stepDefinitions.CartSteps.verifyCart()
+]]></system-out>
+    <system-err><![CDATA[Feb 10, 2026 3:00:33 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (143.0.7499.42) detected in PATH at /Users/froza/Documents/eclipse_workspace/Selenium/drivers/chromedriver might not be compatible with the detected chrome version (144.1.86.148); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+Feb 10, 2026 3:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 10, 2026 3:00:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify cart empty after removal&quot;, &quot;Cart Module&quot;](26)" classname="runners.TestRunner" time="13.591">
+    <system-out><![CDATA[
+26 Scenarios (26 passed)
+91 Steps (91 passed)
+3m39.718s
+
+
+  And User opens cart                              # stepDefinitions.CartSteps.openCart()
+  When User removes product from cart              # stepDefinitions.CartSteps.removeProduct()
+  Then Verify product added to cart                # stepDefinitions.CartSteps.verifyCart()
+]]></system-out>
   </testcase>
 </testsuite>

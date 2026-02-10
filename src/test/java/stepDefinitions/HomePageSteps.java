@@ -11,7 +11,8 @@ public class HomePageSteps {
     public void verifyHomePage(){
 
         HomePage home =
-                new HomePage(BaseClass.driver);
+                new HomePage(BaseClass.getDriver());
+
 
         Assert.assertTrue(home.isHomePageLoaded());
     }
@@ -20,7 +21,8 @@ public class HomePageSteps {
     public void verifySearch(){
 
         HomePage home =
-                new HomePage(BaseClass.driver);
+                new HomePage(BaseClass.getDriver());
+
 
         Assert.assertTrue(home.isSearchBoxPresent());
     }
@@ -29,7 +31,8 @@ public class HomePageSteps {
     public void verifyCategory(){
 
         HomePage home =
-                new HomePage(BaseClass.driver);
+                new HomePage(BaseClass.getDriver());
+
 
         Assert.assertTrue(home.isCategoryMenuPresent());
     }
@@ -38,7 +41,8 @@ public class HomePageSteps {
     public void verifyBanner(){
 
         HomePage home =
-                new HomePage(BaseClass.driver);
+                new HomePage(BaseClass.getDriver());
+
 
         Assert.assertTrue(home.isBannerVisible());
     }
@@ -46,7 +50,7 @@ public class HomePageSteps {
     @When("User handles location popup")
     public void locationPopup(){
 
-        new HomePage(BaseClass.driver)
+    	new HomePage(BaseClass.getDriver())
                 .clickLocationPopup();
     }
 }

@@ -10,34 +10,39 @@ public class ProductDetailsSteps {
     @When("User opens first product details")
     public void openProduct(){
 
-        new ProductDetailsPage(BaseClass.driver).openFirstProduct();
+    	new ProductDetailsPage(BaseClass.getDriver())
+.openFirstProduct();
     }
 
     @Then("Verify product title visible")
     public void verifyTitle(){
 
         Assert.assertTrue(
-                new ProductDetailsPage(BaseClass.driver).isTitleVisible());
+        		new ProductDetailsPage(BaseClass.getDriver())
+.isTitleVisible());
     }
 
     @Then("Verify product price visible")
     public void verifyPrice(){
 
         Assert.assertTrue(
-                new ProductDetailsPage(BaseClass.driver).isPriceVisible());
+        		new ProductDetailsPage(BaseClass.getDriver())
+.isPriceVisible());
     }
 
     @Then("Verify product image visible")
     public void verifyImage(){
 
         Assert.assertTrue(
-                new ProductDetailsPage(BaseClass.driver).isImageVisible());
+        		new ProductDetailsPage(BaseClass.getDriver())
+.isImageVisible());
     }
 
     @Then("Verify product description visible")
     public void verifyDescription(){
 
         Assert.assertTrue(
-                new ProductDetailsPage(BaseClass.driver).isDescriptionVisible());
+        		new ProductDetailsPage(BaseClass.getDriver())
+.isDescriptionVisible());
     }
 }

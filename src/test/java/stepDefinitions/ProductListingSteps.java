@@ -11,7 +11,7 @@ public class ProductListingSteps {
     public void verifyProducts(){
 
         ProductListingPage listing =
-                new ProductListingPage(BaseClass.driver);
+        		new ProductListingPage(BaseClass.getDriver());
 
         Assert.assertTrue(listing.areProductsVisible());
     }
@@ -19,18 +19,21 @@ public class ProductListingSteps {
     @When("User applies price filter")
     public void priceFilter(){
 
-        new ProductListingPage(BaseClass.driver).applyPriceFilter();
+    	new ProductListingPage(BaseClass.getDriver())
+    			.applyPriceFilter();
     }
 
     @When("User applies brand filter")
     public void brandFilter(){
 
-        new ProductListingPage(BaseClass.driver).applyBrandFilter();
+    	new ProductListingPage(BaseClass.getDriver())
+    				.applyBrandFilter();
     }
 
     @When("User clears filters")
     public void clearFilters(){
 
-        new ProductListingPage(BaseClass.driver).clearFilters();
+    	new ProductListingPage(BaseClass.getDriver())
+    			.clearFilters();
     }
 }

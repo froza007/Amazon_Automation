@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 
         glue = {
                 "stepDefinitions",
-            // include if you created Hooks class
+            
         },
 
         plugin = {
