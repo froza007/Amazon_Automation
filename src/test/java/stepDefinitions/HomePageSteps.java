@@ -7,10 +7,11 @@ import pages.HomePage;
 
 public class HomePageSteps {
 
-    HomePage home = new HomePage(BaseClass.driver);
-
     @Given("User is on Amazon home page")
     public void verifyHomePage(){
+
+        HomePage home =
+                new HomePage(BaseClass.driver);
 
         Assert.assertTrue(home.isHomePageLoaded());
     }
@@ -18,11 +19,17 @@ public class HomePageSteps {
     @Then("Verify search box present")
     public void verifySearch(){
 
+        HomePage home =
+                new HomePage(BaseClass.driver);
+
         Assert.assertTrue(home.isSearchBoxPresent());
     }
 
     @Then("Verify category navigation menu present")
     public void verifyCategory(){
+
+        HomePage home =
+                new HomePage(BaseClass.driver);
 
         Assert.assertTrue(home.isCategoryMenuPresent());
     }
@@ -30,12 +37,16 @@ public class HomePageSteps {
     @Then("Verify banner section visible")
     public void verifyBanner(){
 
+        HomePage home =
+                new HomePage(BaseClass.driver);
+
         Assert.assertTrue(home.isBannerVisible());
     }
 
     @When("User handles location popup")
     public void locationPopup(){
 
-        home.clickLocationPopup();
+        new HomePage(BaseClass.driver)
+                .clickLocationPopup();
     }
 }

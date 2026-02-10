@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.File;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -14,9 +15,11 @@ public class ScreenshotUtil {
 
         try {
 
-            TakesScreenshot ts = (TakesScreenshot) driver;
+            TakesScreenshot ts =
+                    (TakesScreenshot) driver;
 
-            File src = ts.getScreenshotAs(OutputType.FILE);
+            File src =
+                    ts.getScreenshotAs(OutputType.FILE);
 
             String timestamp =
                     new SimpleDateFormat("yyyyMMdd_HHmmss")
@@ -25,7 +28,7 @@ public class ScreenshotUtil {
             File dest = new File(
                     "reports/screenshots/screenshot_" + timestamp + ".png");
 
-            src.renameTo(dest);
+            Files.copy(src.toPath(), dest.toPath());
 
         } catch (Exception e){
 

@@ -1,18 +1,24 @@
 @Search
 Feature: Search Module
 
-Scenario: Valid search
+Scenario: Search using valid keyword
+Given User is on Amazon home page
+When User searches valid product "iphone"
+
+Scenario: Search using invalid keyword
+Given User is on Amazon home page
+When User searches invalid product "zzzzzzzz"
+
+Scenario: Search using special characters
+Given User is on Amazon home page
+When User searches special characters "@@@@"
+
+Scenario: Verify search results page displayed
 Given User is on Amazon home page
 When User searches valid product "iphone"
 Then Verify results page displayed
-And Verify products are listed
 
-Scenario: Invalid search
+Scenario: Verify products are listed after search
 Given User is on Amazon home page
-When User searches invalid product "zzzzzzzz"
-Then Verify results page displayed
-
-Scenario: Special character search
-Given User is on Amazon home page
-When User searches special characters "@@@@"
-Then Verify results page displayed
+When User searches valid product "iphone"
+Then Verify products are listed
